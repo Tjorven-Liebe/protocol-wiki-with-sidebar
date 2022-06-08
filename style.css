@@ -49,9 +49,10 @@ table {
 }
 html, body {
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
+    background: #444;
 }
 html {
     font-size: 100%;
@@ -61,8 +62,17 @@ html {
     margin: 50px 50px 0 350px;
     padding-bottom: 50px;
 }
-a {
-    color: #559;
+h1, h2, h3, h4, h5, h6, p, span, pre, li {
+    color: #ddd;
+}
+[style="background:#FFF3BD; padding: 0px 5px 0px 5px; border: 1px solid #C4B674;"] * {
+    color: #333;
+}
+[style="background:#FFF3BD; padding: 0px 5px 0px 5px; border: 1px solid #C4B674;"] a {
+    color: #667;
+}
+a, i {
+    color: #ddf;
     text-decoration: none;
 }
 ul {
@@ -74,8 +84,14 @@ ul {
     overflow-y: scroll;
     top: 0;
     bottom: 0;
-    background: #F6F6F6;
+    background: #5d5d5d;
     margin-left: -30px;
+    box-shadow: 15px 5px 15px #3335;
+}
+
+table, tbody, tr, td, th {
+    background: #333 !important;
+    color: #ddd;
 }
 
 .title {
@@ -83,10 +99,10 @@ ul {
 }
 
 ::-webkit-scrollbar {
-    background: #d6d6d6;
+    background: #333;
     width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #222;
 }
