@@ -70,11 +70,16 @@ ul {
 }
 .toc {
     position: fixed;
-    width: 300px;
+    width: 320px;
     overflow-y: scroll;
     top: 0;
     bottom: 0;
     background: #F6F6F6;
+    margin-left: -30px;
+}
+
+.title {
+    margin-left: 40px;
 }
 
 ::-webkit-scrollbar {
